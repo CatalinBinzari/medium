@@ -1,0 +1,11 @@
+source: https://medium.com/@ninucium/parallelism-and-concurrency-in-go-how-it-works-in-real-computing-systems-part-1-a680443ad8bd
+
+In Go, you can explicitly specify how many processors a program will use. This number is set using the runtime.GOMAXPROCS(n) function from the runtime package, where n is the number of processors to be used.
+
+By default, the value of runtime.GOMAXPROCS is set to the number of available processors on the machine where the program is executed.
+
+usage:
+1. execute
+2. go tool trace trace.out
+3. go to http://127.0.0.1:62289/trace
+4. 
